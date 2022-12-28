@@ -4,17 +4,17 @@
 @import 'ia_typora.css';
 
 :root {
-  --accented-background-color: #1e1e1e;
-  --light-header-color: #dbdbdb; /* H1-H3 */
-  --select-text-bg-color: #186a9a;
-  --accent-color: #4f525a;
-  --background-color: #101010;
-  --font-color: #808e95;
-  --header-color: #bebebe; /* H4-H6 */
-  --border-color: #232629;
-  --link-color: #5584aa; 
-  --code-bg-color: #1c1a1a;
-  --hover-bg-color: #050505; 
+  --accented-background-color: #1b1f26;
+  --light-header-color: #d8dee9; /* H1-H3 */
+  --select-text-bg-color: #5e81ac;
+  --accent-color: #434c5e;
+  --background-color: #2e3440;
+  --font-color: #c8cdd7;
+  --header-color: #D8DEE9  ; /* H4-H6 */
+  --border-color: #697895;
+  --link-color: #81a1c1; 
+  --code-bg-color: #1c2028;
+  --hover-bg-color: #181c23; 
   --control-text-color: var(--font-color); 
   --side-bar-bg-color: var(--accented-background-color);
   --control-text-hover-color: var(--header-color);
@@ -43,12 +43,12 @@ h3 {
 }
 
 mark {
-  background: #b8b80a
+  background: #ebcb8b
 }
 
 table tr:nth-child(2n),
 thead {
-    background-color: #141313;
+    background-color: #191c23;
 }
 
 sup.md-footnote {
@@ -58,30 +58,30 @@ sup.md-footnote {
 
 /* right click menu */
 .context-menu {
-  background-color: #141313;
+  background-color: #191c23;
 }
 
 .context-menu.dropdown-menu .divider {
-  background-color: #232629;
+  background-color: #8898c3;
 }
 
 /* focus mode */
 .on-focus-mode .md-end-block:not(.md-focus):not(.md-focus-container) * {
-  color: #4f525a !important;
+  color: #58637b !important;
 }
 
 .on-focus-mode .md-end-block:not(.md-focus) img,
 .on-focus-mode .md-task-list-item:not(.md-focus-container)>input {
-  opacity: #4f525a !important;
+  opacity: #58637b !important;
 }
 
 .on-focus-mode li[cid]:not(.md-focus-container){
-  color: #4f525a;
+  color: #58637b;
 }
 
 .on-focus-mode .md-fences.md-focus .CodeMirror-code>*:not(.CodeMirror-activeline) *,
 .on-focus-mode .CodeMirror.cm-s-inner:not(.CodeMirror-focused) * {
-  color: #4f525a !important;
+  color: #58637b !important;
 }
 
 .on-focus-mode .md-focus,
@@ -90,5 +90,5 @@ sup.md-footnote {
 }
 
 .on-focus-mode #typora-source .CodeMirror-code>*:not(.CodeMirror-activeline) * {
-  color: #4f525a !important;
+  color: #58637b !important;
 }
